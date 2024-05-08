@@ -11,12 +11,12 @@
 
 		<style>
 			body {
-        height: 100vh;
-        overflow: hidden;
+				height: 100vh;
+				overflow: hidden;
 				background-color: #d5e1ef;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 			.qr-container {
 				display: flex;
@@ -60,6 +60,17 @@
 				height: auto;
 				text-align: center;
 				margin-top: 22px;
+			}
+
+			/* media queries */
+			@media only screen and (max-width: 376px) {
+				.qr-container {
+					width: 100%;
+				}
+
+				.blue-container {
+					width: 90%;
+				}
 			}
 		</style>
 	</head>
